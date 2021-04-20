@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#poga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
