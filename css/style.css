@@ -14,3 +14,79 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+#jaunsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+input#todo {
+    height: 30px;
+    width: 200px;
+    font-size: 30px;
+    border: solid 2px black;
+    font-family: 'Brush Script MT', cursive;
+}
+
+input#untill {
+    height: 30px;
+    width: 200px;
+    font-size: 30px;
+    border: solid 2px black;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#jaunsLists {
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+    border: solid 2px black;
+    border-radius: 15px;
+    font-family: 'Brush Script MT', cursive;
+    background-color:cadetblue;
+}
+
+#popUp {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:darkslategray;
+    font-size: 30px;
+}
+
+#form {
+    background-color: darksalmon;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 25%;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#onelist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gramata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: 150px;
+    padding: 15px;
+    margin: 20px;
+    background-color: crimson;
+}
