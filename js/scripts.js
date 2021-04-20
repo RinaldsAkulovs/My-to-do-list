@@ -31,9 +31,10 @@ function render() {
 
     for(let i = 0; i < lists.length; i++) {
         let list = `
-        <div class="gramata">
+        <div class="list">
             <h3>Todo: ${lists[i].todo}</h3>
             <h4>Untill: ${lists[i].untill}</h4>
+            <button type="delete" id="deleteList">Dzēst</button>
         </div>`;
 
         onelist.innerHTML += list;
@@ -41,3 +42,12 @@ function render() {
 
     localStorage.setItem("lists", JSON.stringify(lists))
 }
+
+var btns = document.querySelectorAll('#onelist.button');
+
+Array.from(btns).forEach(function(btn){
+    btn.addEventListener('click',function(e){
+        const list = e.target.parentElement;
+        list.parentElement.removeChild(list)
+    });
+});
